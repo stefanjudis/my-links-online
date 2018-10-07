@@ -1,0 +1,28 @@
+{
+  "name": "my-links-online",
+  "version": "1.0.0",
+  "description": "Serverless URL shortener using Contentful",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "serverless offline start",
+    "deploy": "serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/my-links-online.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/my-links-online/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/my-links-online#readme",
+  "devDependencies": {
+    "serverless": "^1.32.0",
+    "serverless-offline": "^3.27.0"
+  },
+  "dependencies": {
+    "got": "^9.2.2"
+  }
+}
